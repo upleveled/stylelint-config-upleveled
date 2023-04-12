@@ -9,18 +9,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "upleveled-stylelint-install": "bin/install.js"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
   "author": "Karl Horky",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
+    "stylelint": "^15.4.0",
     "stylelint-config-css-modules": "^4.2.0",
     "stylelint-config-recommended": "^11.0.0",
     "stylelint-config-recommended-scss": "^10.0.0"
-  },
-  "peerDependencies": {
-    "stylelint": "^15.4.0"
   }
 }
