@@ -58,7 +58,7 @@ console.log('Writing config files...');
 const templatePath = resolve(
   dirname(fileURLToPath(import.meta.url)),
   '..',
-  'templates',
+  'template',
 );
 
 const templateFileNamesAndPaths =
