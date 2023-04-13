@@ -7,7 +7,8 @@
   "files": [
     "index.cjs",
     "bin",
-    "templates"
+    "templates",
+    "stylelint-error-example.webp"
   ],
   "repository": "upleveled/stylelint-config-upleveled",
   "scripts": {
