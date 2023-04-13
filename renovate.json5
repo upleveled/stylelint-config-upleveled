@@ -2,17 +2,7 @@
   extends: ['github>karlhorky/renovate-config:default.json5'],
   // Mostly default configuration for ignorePaths
   // https://docs.renovatebot.com/presets-default/#ignoremodulesandtests
-  ignorePaths: [
-    '**/node_modules/**',
-    '**/bower_components/**',
-    '**/vendor/**',
-    '**/examples/**',
-    // Allow upgrades to tests
-    // "**/__tests__/**",
-    '**/test/**',
-    '**/tests/**',
-    '**/__fixtures__/**',
-  ],
+  ignorePaths: ['**/node_modules/**', '**/examples/**'],
   packageRules: [
     {
       matchDepTypes: ['peerDependencies'],
