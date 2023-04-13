@@ -1,7 +1,14 @@
 {
   "name": "stylelint-config-upleveled",
   "version": "0.0.16",
-  "description": "",
+  "description": "UpLeveled Stylelint defaults for styling in CSS, SCSS, Sass, CSS Modules and CSS-in-JS.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "repository": "upleveled/stylelint-config-upleveled",
+  "license": "ISC",
+  "author": "Karl Horky",
   "type": "module",
   "main": "index.cjs",
   "files": [
@@ -10,24 +17,11 @@
     "templates",
     "stylelint-error-example.webp"
   ],
-  "repository": "upleveled/stylelint-config-upleveled",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "stylelint": {
     "extends": [
       "."
     ]
   },
-  "bin": {
-    "upleveled-stylelint-install": "bin/install.js"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config"
-  ],
-  "author": "Karl Horky",
-  "license": "ISC",
   "dependencies": {
     "postcss-styled-syntax": "^0.4.0",
     "stylelint-config-css-modules": "^4.2.0",
