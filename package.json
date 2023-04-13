@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.cjs",
+    "bin",
+    "templates"
   ],
+  "repository": "upleveled/stylelint-config-upleveled",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
