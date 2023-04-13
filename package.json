@@ -2,6 +2,7 @@
   "name": "stylelint-config-upleveled",
   "version": "0.0.10",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "files": [
     "index.cjs",
