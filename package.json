@@ -4,7 +4,13 @@
   "description": "UpLeveled Stylelint defaults for styling in CSS, SCSS, Sass, CSS Modules and CSS-in-JS.",
   "keywords": [
     "stylelint",
-    "stylelint-config"
+    "stylelint-config",
+    "config",
+    "css",
+    "sass",
+    "scss",
+    "react",
+    "nextjs"
   ],
   "repository": "upleveled/stylelint-config-upleveled",
   "license": "MIT",
