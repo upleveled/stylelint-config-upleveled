@@ -1,4 +1,4 @@
-# UpLeveled stylelint Config
+# UpLeveled Stylelint Config
 
 UpLeveled Stylelint defaults for styling in CSS, SCSS, Sass, CSS Modules and CSS-in-JS.
 
