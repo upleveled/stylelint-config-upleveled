@@ -3,7 +3,7 @@ const config = {
   extends: ['upleveled'],
   overrides: [
     {
-      files: ['**/*.cjs'],
+      files: ['index.cjs'],
     },
   ],
 };
