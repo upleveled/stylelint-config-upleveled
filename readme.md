@@ -6,4 +6,4 @@ UpLeveled Stylelint defaults for styling in CSS, SCSS, Sass, CSS Modules and CSS
 
 ## Setup
 
-Follow the installation instructions for the [UpLeveled Bootcamp ESLint configuration](https://www.npmjs.com/package/@upleveled/eslint-config-upleveled)
+Follow the setup instructions for the [UpLeveled ESLint Config](https://www.npmjs.com/package/@upleveled/eslint-config-upleveled)
