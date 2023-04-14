@@ -3,9 +3,13 @@ const config = {
   extends: ['upleveled'],
   overrides: [
     {
-      files: ['index.cjs'],
+      files: 'index.cjs',
     },
   ],
+  parserOptions: {
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname,
+  },
 };
 
 module.exports = config;
