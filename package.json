@@ -19,7 +19,6 @@
   "main": "index.cjs",
   "files": [
     "index.cjs",
-    "templates",
     "tsconfig.base.json"
   ],
   "dependencies": {
