@@ -1,4 +1,4 @@
-name: Lint, Check Types, Test
+name: Lint, Check Types
 on: push
 
 jobs:
