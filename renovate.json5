@@ -1,7 +1,5 @@
 {
   extends: ['github>karlhorky/renovate-config:default.json5'],
-  // Mostly default configuration for ignorePaths
-  // https://docs.renovatebot.com/presets-default/#ignoremodulesandtests
   packageRules: [
     {
       matchDepTypes: ['peerDependencies'],
