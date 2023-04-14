@@ -15,15 +15,9 @@
     "index.cjs",
     "bin",
     "templates",
-    "tsconfig.base.json",
-    "stylelint-error-example.webp"
+    "tsconfig.base.json"
   ],
   "stylelint": {
-    "extends": [
-      "."
-    ]
-  },
-  "eslint": {
     "extends": [
       "."
     ]
