@@ -3,7 +3,8 @@ const config = {
   extends: ['upleveled'],
   overrides: [
     {
-      files: 'index.cjs',
+      files: ['**/*.cjs'],
+      extends: ['eslint-config-upleveled'],
     },
   ],
 };
