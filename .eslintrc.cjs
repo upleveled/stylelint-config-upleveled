@@ -6,10 +6,6 @@ const config = {
       files: 'index.cjs',
     },
   ],
-  parserOptions: {
-    project: './tsconfig.json',
-    tsconfigRootDir: __dirname,
-  },
 };
 
 module.exports = config;
