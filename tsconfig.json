@@ -5,15 +5,6 @@
     "checkJs": true,
     "target": "esnext"
   },
-  "include": [
-    "**/.eslintrc.cjs",
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.jsx",
-    "**/*.cjs",
-    "**/*.mjs"
-  ],
+  "include": [".eslintrc.cjs", "**/*.cjs"],
   "exclude": ["node_modules"]
 }
