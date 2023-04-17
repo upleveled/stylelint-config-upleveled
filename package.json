@@ -19,6 +19,9 @@
   ],
   "type": "module",
   "main": "index.cjs",
+  "files": [
+    "index.cjs"
+  ],
   "dependencies": {
     "postcss-styled-syntax": "0.4.0",
     "stylelint-config-css-modules": "4.2.0",
