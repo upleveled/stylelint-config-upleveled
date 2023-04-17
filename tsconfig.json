@@ -5,6 +5,6 @@
     "checkJs": true,
     "target": "esnext"
   },
-  "include": [".eslintrc.cjs", "**/*.cjs"],
+  "include": [".eslintrc.cjs"],
   "exclude": ["node_modules"]
 }
