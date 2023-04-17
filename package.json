@@ -8,9 +8,7 @@
     "config",
     "css",
     "sass",
-    "scss",
-    "react",
-    "nextjs"
+    "scss"
   ],
   "repository": "upleveled/stylelint-config-upleveled",
   "license": "MIT",
