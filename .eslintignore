@@ -1,0 +1,3 @@
+prettier.config.cjs
+stylelint.config.cjs
+.eslintrc.cjs
