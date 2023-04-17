@@ -14,7 +14,11 @@
   ],
   "repository": "upleveled/stylelint-config-upleveled",
   "license": "MIT",
-  "author": "Karl Horky <karl.horky@gmail.com>",
+  "contributors": [
+    "Jose Höwer <josehower@gmail.com>",
+    "Karl Horky <karl.horky@gmail.com>"
+  ],
+  "author": "Upleveled",
   "type": "module",
   "main": "index.cjs",
   "files": [
