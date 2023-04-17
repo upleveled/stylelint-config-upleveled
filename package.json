@@ -3,20 +3,20 @@
   "version": "1.0.1",
   "description": "UpLeveled Stylelint defaults for styling in CSS, SCSS, Sass, CSS Modules and CSS-in-JS",
   "keywords": [
-    "stylelint",
-    "stylelint-config",
     "config",
     "css",
     "sass",
-    "scss"
+    "scss",
+    "stylelint-config",
+    "stylelint"
   ],
   "repository": "upleveled/stylelint-config-upleveled",
   "license": "MIT",
+  "author": "UpLeveled",
   "contributors": [
     "Jose Höwer <josehower@gmail.com>",
     "Karl Horky <karl.horky@gmail.com>"
   ],
-  "author": "UpLeveled",
   "type": "module",
   "main": "index.cjs",
   "files": [
@@ -26,15 +26,15 @@
   "dependencies": {
     "postcss-styled-syntax": "0.4.0",
     "stylelint-config-css-modules": "4.2.0",
-    "stylelint-config-recommended": "11.0.0",
-    "stylelint-config-recommended-scss": "10.0.0"
+    "stylelint-config-recommended-scss": "10.0.0",
+    "stylelint-config-recommended": "11.0.0"
   },
   "devDependencies": {
     "@types/prettier": "2.7.2",
+    "eslint-config-upleveled": "4.0.12",
     "eslint": "8.38.0",
-    "eslint-config-upleveled": "4.0.13",
-    "stylelint": "15.4.0",
     "stylelint-config-upleveled": "1.0.1",
+    "stylelint": "15.4.0",
     "typescript": "5.0.4"
   },
   "peerDependencies": {
