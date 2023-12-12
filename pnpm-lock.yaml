@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.3.0
     version: 4.3.0(stylelint@15.11.0)
   stylelint-config-recommended:
-    specifier: 13.0.0
-    version: 13.0.0(stylelint@15.11.0)
+    specifier: 14.0.0
+    version: 14.0.0(stylelint@15.11.0)
   stylelint-config-recommended-scss:
     specifier: 13.1.0
     version: 13.1.0(postcss@8.4.31)(stylelint@15.11.0)
@@ -3141,6 +3141,15 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       stylelint: ^15.10.0
+    dependencies:
+      stylelint: 15.11.0
+    dev: false
+
+  /stylelint-config-recommended@14.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.0.0
     dependencies:
       stylelint: 15.11.0
     dev: false
