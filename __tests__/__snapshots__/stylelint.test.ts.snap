@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`run stylelint and expect errors 1`] = `
+[Error: Command failed with exit code 2: pnpm stylelint '**/*.{css,scss,less,js,tsx}'
+
+__tests__/index.module.scss
+  1:1   ✖  Unexpected unknown type selector "lol"         selector-type-no-unknown
+  1:5   ✖  Unexpected empty block                         block-no-empty
+  5:3   ✖  Unexpected unknown property "backgound-color"  property-no-unknown
+  7:3   ✖  Unexpected duplicate "--custom-property"       declaration-block-no-duplicate-custom-properties
+ 16:9   ✖  Unexpected unknown type selector "c"           selector-type-no-unknown
+ 16:13  ✖  Unexpected unknown type selector "d"           selector-type-no-unknown
+ 16:15  ✖  Unexpected unknown type selector "e"           selector-type-no-unknown
+
+7 problems (7 errors, 0 warnings)
+]
+`;
