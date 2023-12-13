@@ -1,7 +1,7 @@
 import { $ } from 'execa';
 import { expect, test } from 'vitest';
 
-test('run stylelint and expect errors', async () => {
+test('Errors correctly reported with Stylelint config', async () => {
   try {
     const stylelintOutput =
       await $`pnpm stylelint '**/*.{css,scss,less,js,tsx}'`;
