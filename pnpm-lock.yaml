@@ -11,6 +11,9 @@ dependencies:
   postcss-styled-syntax:
     specifier: 0.5.0
     version: 0.5.0(postcss@8.4.32)
+  stylelint:
+    specifier: ^16.0.2
+    version: 16.0.2(typescript@5.3.3)
   stylelint-config-css-modules:
     specifier: 4.3.0
     version: 4.3.0(stylelint@16.0.2)
@@ -31,9 +34,6 @@ devDependencies:
   eslint-config-upleveled:
     specifier: 7.3.4
     version: 7.3.4(@babel/core@7.21.4)(@types/eslint@8.44.8)(@types/node@20.10.4)(@types/react-dom@18.2.17)(@types/react@18.2.42)(eslint@8.55.0)(globals@13.23.0)(typescript@5.3.3)
-  stylelint:
-    specifier: 16.0.2
-    version: 16.0.2(typescript@5.3.3)
   stylelint-config-upleveled:
     specifier: 1.0.3
     version: 1.0.3(postcss@8.4.32)(stylelint@16.0.2)
@@ -3474,10 +3474,6 @@ packages:
     resolution: {integrity: sha512-ybx0WO1/8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn/Es1zhrrCHu7g==}
     dev: true
 
-  /signal-exit@4.0.1:
-    resolution: {integrity: sha512-uUWsN4aOxJAS8KOuf3QMyFtgm1pkb6I+KRZbRF/ghdf5T7sM+B1lLLzPDxswUjkmHyxQAVzEgG35E3NzDM9GVw==}
-    engines: {node: '>=14'}
-
   /signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
@@ -4206,7 +4202,7 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       imurmurhash: 0.1.4
-      signal-exit: 4.0.1
+      signal-exit: 4.1.0
 
   /yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
