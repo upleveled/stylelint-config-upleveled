@@ -22,9 +22,6 @@ dependencies:
     version: 14.0.0(postcss@8.4.33)(stylelint@16.2.1)
 
 devDependencies:
-  '@types/prettier':
-    specifier: 2.7.3
-    version: 2.7.3
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -34,6 +31,9 @@ devDependencies:
   execa:
     specifier: 8.0.1
     version: 8.0.1
+  prettier:
+    specifier: 3.2.5
+    version: 3.2.5
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -782,10 +782,6 @@ packages:
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
-    dev: true
-
-  /@types/prettier@2.7.3:
-    resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
     dev: true
 
   /@types/prop-types@15.7.5:
@@ -3687,6 +3683,12 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /pretty-format@29.7.0:
