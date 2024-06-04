@@ -1,10 +1,11 @@
-import { $ } from 'execa';
+import { execa } from 'execa';
 import { expect, test } from 'vitest';
 
 test('Errors correctly reported with Stylelint config', async () => {
-  const { exitCode, stdout, stderr } = await $({
+  const { exitCode, stdout, stderr } = await execa({
     reject: false,
-  })`pnpm stylelint '**/*.{css,scss,less,js,tsx}'`;
+    preferLocal: true,
+  })`stylelint '**/*.{css,scss,less,js,tsx}'`;
   expect(exitCode).toBe(2);
   expect(stdout).toMatchSnapshot();
   expect(stderr).toMatchSnapshot();
