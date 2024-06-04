@@ -17,13 +17,6 @@ const config = {
             ignoreAtRules: ['tailwind', 'theme'],
           },
         ],
-        // Disable to avoid problems with Tailwind CSS direct
-        // children selector classes eg. `*:w-full`
-        //
-        // TODO: Remove if support or a workaround gets added for
-        // Tailwind CSS direct children selector classes
-        // - https://github.com/stylelint-scss/stylelint-scss/issues/999
-        'scss/operator-no-unspaced': null,
       },
     },
     {
