@@ -32,18 +32,18 @@
     "stylelint-config-recommended-scss": "14.1.0"
   },
   "devDependencies": {
-    "eslint": "9.9.1",
-    "eslint-config-upleveled": "8.6.16",
+    "eslint": "9.10.0",
+    "eslint-config-upleveled": "8.7.0",
     "execa": "9.3.1",
     "prettier": "3.3.3",
-    "typescript": "5.5.4",
-    "vitest": "2.0.5"
+    "typescript": "5.6.2",
+    "vitest": "2.1.0"
   },
   "peerDependencies": {
     "stylelint": "^16.9.0",
-    "stylelint-scss": "^6.5.1"
+    "stylelint-scss": "^6.6.0"
   },
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.10.0",
   "engines": {
     "node": ">=20.9.0"
   }
