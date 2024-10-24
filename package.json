@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "eslint": "9.13.0",
-    "eslint-config-upleveled": "8.11.1",
+    "eslint-config-upleveled": "8.11.2",
     "execa": "9.4.1",
     "prettier": "3.3.3",
     "typescript": "5.6.3",
