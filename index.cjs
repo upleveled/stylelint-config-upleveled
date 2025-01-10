@@ -14,7 +14,7 @@ const config = {
         'scss/at-rule-no-unknown': [
           true,
           {
-            ignoreAtRules: ['tailwind', 'theme'],
+            ignoreAtRules: ['tailwind', 'theme', 'utility'],
           },
         ],
       },
