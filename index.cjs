@@ -23,10 +23,14 @@ const config = {
             ignoreAtRules: [
               // Tailwind CSS Directives
               // - https://tailwindcss.com/docs/functions-and-directives
+              'config',
+              'plugin',
               'source',
               'tailwind',
               'theme',
               'utility',
+              'variant',
+              'custom-variant',
             ],
           },
         ],
