@@ -11,6 +11,12 @@ const config = {
       files: ['**/*.css', '**/*.scss', '**/*.sass', '**/*.less'],
       extends: ['stylelint-config-recommended-scss'],
       rules: {
+        'at-rule-no-deprecated': [
+          true,
+          {
+            ignoreAtRules: ['apply'],
+          },
+        ],
         'scss/at-rule-no-unknown': [
           true,
           {
