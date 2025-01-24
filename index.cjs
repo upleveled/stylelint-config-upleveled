@@ -14,7 +14,14 @@ const config = {
         'scss/at-rule-no-unknown': [
           true,
           {
-            ignoreAtRules: ['tailwind', 'theme', 'utility'],
+            ignoreAtRules: [
+              // Tailwind CSS Directives
+              // - https://tailwindcss.com/docs/functions-and-directives
+              'source',
+              'tailwind',
+              'theme',
+              'utility',
+            ],
           },
         ],
       },
