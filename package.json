@@ -34,7 +34,7 @@
   "devDependencies": {
     "eslint": "9.26.0",
     "eslint-config-upleveled": "9.2.3",
-    "execa": "9.5.2",
+    "execa": "9.5.3",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
     "vitest": "3.1.3"
