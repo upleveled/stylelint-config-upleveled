@@ -32,8 +32,8 @@
     "stylelint-config-recommended-scss": "15.0.1"
   },
   "devDependencies": {
-    "eslint": "9.31.0",
-    "eslint-config-upleveled": "9.2.5",
+    "eslint": "9.32.0",
+    "eslint-config-upleveled": "9.2.6",
     "execa": "9.6.0",
     "prettier": "3.6.2",
     "typescript": "5.8.3",
