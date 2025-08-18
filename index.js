@@ -26,7 +26,7 @@ const config = {
         '**/*.sass',
         '**/*.less',
         // Tailwind CSS with PostCSS features
-        '**/app/globals.css',
+        '**/*.css',
       ],
       extends: ['stylelint-config-recommended-scss'],
       rules: {
