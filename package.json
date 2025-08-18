@@ -18,9 +18,9 @@
     "Karl Horky <karl.horky@gmail.com>"
   ],
   "type": "module",
-  "main": "index.cjs",
+  "exports": "./index.js",
   "files": [
-    "index.cjs"
+    "./index.js"
   ],
   "scripts": {
     "test": "CI=true vitest"
