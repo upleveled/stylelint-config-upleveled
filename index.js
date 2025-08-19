@@ -1,20 +1,27 @@
 /** @type {import('stylelint').Config} */
 const config = {
-  extends: [
-    'stylelint-config-recommended',
+  extends: ['stylelint-config-recommended'],
+  rules: {
     // TODO: Configure ignoreAtRules in
     // nesting-selector-no-missing-scoping-root rule once it
     // exists:
     // - https://github.com/stylelint/stylelint/issues/8728
     // - https://github.com/stylelint/stylelint/issues/8406#issuecomment-3185835523
     //
+    // ```
+    // 'nesting-selector-no-missing-scoping-root': [
+    //   true,
+    //   {
+    //     ignoreAtRules: ['utility'],
+    //   },
+    // ]
+    // ```
+    //
     // For now, it can be disabled manually in CSS like this:
     //
     // ```
     // /* stylelint-disable nesting-selector-no-missing-scoping-root -- TODO: Modify stylelint-config-upleveled to configure ignoreAtRules in rule once it exists https://github.com/stylelint/stylelint/issues/8728 https://github.com/stylelint/stylelint/issues/8406#issuecomment-3185835523 */
     // ```
-  ],
-  rules: {
     'no-descending-specificity': null,
     // Allow files without any styles
     'no-empty-source': null,
