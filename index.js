@@ -2,26 +2,14 @@
 const config = {
   extends: ['stylelint-config-recommended'],
   rules: {
-    // TODO: Configure ignoreAtRules in
-    // nesting-selector-no-missing-scoping-root rule once it
-    // exists:
-    // - https://github.com/stylelint/stylelint/issues/8728
-    // - https://github.com/stylelint/stylelint/issues/8406#issuecomment-3185835523
-    //
-    // ```
-    // 'nesting-selector-no-missing-scoping-root': [
-    //   true,
-    //   {
-    //     ignoreAtRules: ['utility'],
-    //   },
-    // ]
-    // ```
-    //
-    // For now, it can be disabled manually in CSS like this:
-    //
-    // ```
-    // /* stylelint-disable nesting-selector-no-missing-scoping-root -- TODO: Modify stylelint-config-upleveled to configure ignoreAtRules in rule once it exists https://github.com/stylelint/stylelint/issues/8728 https://github.com/stylelint/stylelint/issues/8406#issuecomment-3185835523 */
-    // ```
+    // Allow nesting selectors in Tailwind CSS @utility at-rules
+    // - https://stylelint.io/user-guide/rules/nesting-selector-no-missing-scoping-root/
+    'nesting-selector-no-missing-scoping-root': [
+      true,
+      {
+        ignoreAtRules: ['utility'],
+      },
+    ],
     // Allow ordering of selectors not descending in specificity
     // - https://stylelint.io/user-guide/rules/no-descending-specificity/
     'no-descending-specificity': null,
