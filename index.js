@@ -22,8 +22,11 @@ const config = {
     // ```
     // /* stylelint-disable nesting-selector-no-missing-scoping-root -- TODO: Modify stylelint-config-upleveled to configure ignoreAtRules in rule once it exists https://github.com/stylelint/stylelint/issues/8728 https://github.com/stylelint/stylelint/issues/8406#issuecomment-3185835523 */
     // ```
+    // Allow ordering of selectors not descending in specificity
+    // - https://stylelint.io/user-guide/rules/no-descending-specificity/
     'no-descending-specificity': null,
-    // Allow files without any styles
+    // Allow empty files without any styles
+    // - https://stylelint.io/user-guide/rules/no-empty-source/
     'no-empty-source': null,
   },
   overrides: [
