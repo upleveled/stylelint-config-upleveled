@@ -4,6 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "cron"
-      # Schedule on 31 Feb to disable automatic runs (this should
-      # only run manually)
-      cronjob: "0 5 31 2 *"
+      # Schedule on 29 Feb to mostly disable automatic runs (intention:
+      # Dependabot should only be run manually)
+      cronjob: "0 0 29 2 *"
