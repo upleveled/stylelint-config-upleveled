@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      # Schedule on 31 Feb to disable automatic runs (this should
+      # only run manually)
+      cronjob: "0 5 31 2 *"
