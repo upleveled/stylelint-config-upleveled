@@ -32,22 +32,22 @@
     "postcss-styled-syntax": "0.7.1",
     "stylelint-config-css-modules": "4.5.1",
     "stylelint-config-recommended": "17.0.0",
-    "stylelint-config-recommended-scss": "16.0.1"
+    "stylelint-config-recommended-scss": "16.0.2"
   },
   "devDependencies": {
-    "@types/node": "24.5.2",
-    "eslint": "9.35.0",
-    "eslint-config-upleveled": "9.3.0",
+    "@types/node": "24.7.0",
+    "eslint": "9.37.0",
+    "eslint-config-upleveled": "9.4.1",
     "execa": "9.6.0",
     "prettier": "3.6.2",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "vitest": "3.2.4"
   },
   "peerDependencies": {
     "stylelint": "^16.25.0",
     "stylelint-scss": "^6.12.1"
   },
-  "packageManager": "pnpm@10.17.0+sha512.fce8a3dd29a4ed2ec566fb53efbb04d8c44a0f05bc6f24a73046910fb9c3ce7afa35a0980500668fa3573345bd644644fa98338fa168235c80f4aa17aa17fbef",
+  "packageManager": "pnpm@10.18.1+sha512.77a884a165cbba2d8d1c19e3b4880eee6d2fcabd0d879121e282196b80042351d5eb3ca0935fa599da1dc51265cc68816ad2bddd2a2de5ea9fdf92adbec7cd34",
   "engines": {
     "node": ">=20.9.0"
   }
