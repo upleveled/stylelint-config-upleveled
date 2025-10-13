@@ -16,6 +16,14 @@ const config = {
     // Allow empty files without any styles
     // - https://stylelint.io/user-guide/rules/no-empty-source/
     'no-empty-source': null,
+    // Allow declarations in Tailwind CSS @utility at-rules
+    // - https://stylelint.io/user-guide/rules/no-invalid-position-declaration/
+    'no-invalid-position-declaration': [
+      true,
+      {
+        ignoreAtRules: ['utility'],
+      },
+    ],
   },
   overrides: [
     {
