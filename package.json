@@ -37,11 +37,11 @@
   "devDependencies": {
     "@types/node": "25.0.10",
     "eslint": "9.39.2",
-    "eslint-config-upleveled": "9.4.4",
+    "eslint-config-upleveled": "9.4.5",
     "execa": "9.6.1",
     "prettier": "3.8.1",
     "typescript": "5.9.3",
-    "vitest": "4.0.17"
+    "vitest": "4.0.18"
   },
   "peerDependencies": {
     "stylelint": "^17.0.0",
