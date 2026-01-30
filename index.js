@@ -93,13 +93,6 @@ const config = {
         '**/*.tsx',
       ],
       customSyntax: 'postcss-styled-syntax',
-      rules: {
-        // TODO: Remove this configuration once
-        // nesting-selector-no-missing-scoping-root no longer
-        // causes false positives for CSS-in-JS
-        // - https://github.com/stylelint/stylelint/issues/8727
-        'nesting-selector-no-missing-scoping-root': null,
-      },
     },
   ],
 };
