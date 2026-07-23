@@ -29,23 +29,23 @@
     "test": "CI=true vitest"
   },
   "dependencies": {
-    "postcss-styled-syntax": "0.7.1",
+    "postcss-styled-syntax": "0.7.2",
     "stylelint-config-css-modules": "4.6.0",
     "stylelint-config-recommended": "18.0.0",
     "stylelint-config-recommended-scss": "17.0.1"
   },
   "devDependencies": {
-    "@types/node": "26.0.1",
-    "eslint": "10.2.0",
+    "@types/node": "26.1.1",
+    "eslint": "10.7.0",
     "eslint-config-upleveled": "10.0.0",
     "execa": "9.6.1",
-    "prettier": "3.8.1",
+    "prettier": "3.9.5",
     "typescript": "6.0.3",
-    "vitest": "4.1.4"
+    "vitest": "4.1.10"
   },
   "peerDependencies": {
-    "stylelint": "^17.6.0",
-    "stylelint-scss": "^7.0.0"
+    "stylelint": "^17.14.0",
+    "stylelint-scss": "^7.2.0"
   },
   "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
   "engines": {
