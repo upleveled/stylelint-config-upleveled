@@ -6,6 +6,8 @@ minimumReleaseAgeExclude:
   - '@upleveled/*'
   - eslint-config-upleveled
   - stylelint-config-upleveled
+  # Renovate security update: vitest@4.1.11
+  - vitest@4.1.11
 
 # Allow build scripts for trusted dependencies
 # - https://pnpm.io/settings#onlybuiltdependencies
