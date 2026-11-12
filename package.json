@@ -31,7 +31,7 @@
   "dependencies": {
     "postcss-styled-syntax": "0.7.4",
     "stylelint-config-css-modules": "4.6.0",
-    "stylelint-config-recommended": "18.0.0",
+    "stylelint-config-recommended": "19.0.0",
     "stylelint-config-recommended-scss": "17.0.1"
   },
   "devDependencies": {
