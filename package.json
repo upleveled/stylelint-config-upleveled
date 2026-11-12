@@ -44,7 +44,7 @@
     "vitest": "4.1.11"
   },
   "peerDependencies": {
-    "stylelint": "^17.6.0",
+    "stylelint": "^18.0.0",
     "stylelint-scss": "^7.4.0"
   },
   "devEngines": {
