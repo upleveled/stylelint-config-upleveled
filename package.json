@@ -39,13 +39,13 @@
     "eslint": "10.14.0",
     "eslint-config-upleveled": "11.0.3",
     "execa": "9.6.1",
-    "prettier": "3.9.10",
+    "prettier": "3.10.1",
     "typescript": "6.0.3",
     "vitest": "4.1.11"
   },
   "peerDependencies": {
     "stylelint": "^17.6.0",
-    "stylelint-scss": "^7.4.0"
+    "stylelint-scss": "^7.5.0"
   },
   "devEngines": {
     "packageManager": {
